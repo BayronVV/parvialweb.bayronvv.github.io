@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    height: 120px;
+    width: 1200px;
+    background-color: #6490f5;
+    padding: 10px;
+}
+
+
+img{
+    
+    width: 60px;
+    height: 60px;
+
+}
+/* Estilo para la imagen de perfil */
+.profile-picture img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Esto crea una forma circular */
+    margin-right: 10px;
+}
+
+/* Estilos para la información del perfil */
+.profile-info {
+    text-align: left;
+}
+
+.profile-info h1 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.profile-info p {
+    font-size: 14px;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Estilo para el elemento Main */
+main {
+    flex: 3; /* Toma el 75% del ancho */
+    background-color: #d7fa12; /* Color de fondo para demostración */
+    padding: 20px;
+    height: 400px;
+}
+
+/* Estilo para el elemento Aside */
+aside {
+    flex: 1; /* Toma el 25% del ancho */
+    background-color: #f3f706; /* Color de fondo para demostración */
+    padding: 20px;
+    height: 400px;
+}
+.content {
+    display: flex;
+    flex: 1;
+}
+
