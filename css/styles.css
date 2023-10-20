@@ -7,12 +7,7 @@ header {
 }
 
 
-img{
-    
-    width: 60px;
-    height: 60px;
 
-}
 /* Estilo para la imagen de perfil */
 .profile-picture img {
     width: 60px;
@@ -37,9 +32,10 @@ img{
 }
 
 body {
-    display: flex;
-    height: 100vh;
     margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Colocar elementos en columna */
 }
 
 /* Estilo para el elemento Main */
@@ -59,6 +55,6 @@ aside {
 }
 .content {
     display: flex;
-    flex: 1;
 }
+
 
