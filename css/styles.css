@@ -56,18 +56,20 @@ aside {
 .content {
     display: flex;
 }
-.footer-left {
-    flex: 1; /* Ocupa el 50% del ancho disponible */
-    background-color: #0bf0dd;
+footer {
+    background-color: #1ba5f5; /* Color de fondo común para los footers */
     text-align: center;
     padding: 10px;
+    height: 1.5cm; /* Altura de 1.5cm */
+}
+
+/* Estilo para el Footer Izquierdo */
+.footer-left {
+    align-self: flex-start; /* Colocar al inicio */
 }
 
 /* Estilo para el Footer Derecho */
 .footer-right {
-    flex: 1; /* Ocupa el 50% del ancho disponible */
-    background-color: #0bf345;
-    text-align: center;
-    padding: 10px;
+    align-self: flex-end; /* Colocar al final */
 }
 
