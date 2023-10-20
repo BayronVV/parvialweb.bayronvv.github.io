@@ -56,5 +56,18 @@ aside {
 .content {
     display: flex;
 }
+.footer-left {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    background-color: #0bf0dd;
+    text-align: center;
+    padding: 10px;
+}
 
+/* Estilo para el Footer Derecho */
+.footer-right {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    background-color: #0bf345;
+    text-align: center;
+    padding: 10px;
+}
 
