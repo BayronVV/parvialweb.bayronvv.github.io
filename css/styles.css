@@ -87,6 +87,11 @@ aside {
 
 .footer-right {
   background-color: #6f91ec;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-right p:last-child {
+  margin-left: auto;
 }
 .p2 {
   text-align: right;
