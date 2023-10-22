@@ -1,84 +1,117 @@
 header {
-    display: flex;
-    height: 120px;
-    width: 1200px;
-    background-color: #6490f5;
-    padding: 10px;
+  display: flex;
+  height: 120px;
+  width: 1200px;
+  background-color: #6490f5;
+  padding: 10px;
 }
-
-
 
 /* Estilo para la imagen de perfil */
 .profile-picture img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%; /* Esto crea una forma circular */
-    margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Esto crea una forma circular */
+  margin-right: 10px;
 }
 
 /* Estilos para la información del perfil */
 .profile-info {
-    text-align: left;
+  text-align: left;
+  flex-basis: 33%;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
 }
 
-.profile-info h1 {
-    font-size: 18px;
-    margin: 0;
+h2 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.profile-info h1,
+h3,
+h4,
+h5 {
+  font-size: 18px;
+  margin: 0;
 }
 
 .profile-info p {
-    font-size: 14px;
-    margin: 0;
+  font-size: 14px;
+  margin: 0;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column; /* Colocar elementos en columna */
-    min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column; /* Colocar elementos en columna */
+  min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 /* Estilo para el elemento Main */
 main {
-    flex: 3; /* Toma el 75% del ancho */
-    background-color: #567bd1; /* Color de fondo para demostración */
-    padding: 20px;
-    height: 400px;
+  flex: 3; /* Toma el 75% del ancho */
+  background-color: #567bd1; /* Color de fondo para demostración */
+  padding: 20px;
+  height: 400px;
 }
 
 /* Estilo para el elemento Aside */
 aside {
-    flex: 1; /* Toma el 25% del ancho */
-    background-color: #4563a8; /* Color de fondo para demostración */
-    padding: 20px;
-    height: 400px;
+  flex: 1; /* Toma el 25% del ancho */
+  background-color: #4563a8; /* Color de fondo para demostración */
+  padding: 20px;
+  height: 400px;
 }
 .content {
-    display: flex;
+  display: flex;
+  margin-top: 0px;
 }
-.footer-left, .footer-right {
-    width: 50%;
-    height: 80px;
-    display: flex; 
-    align-items: center;
-    color: black;
-   
-    
+.footer-left,
+.footer-right {
+  width: 50%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: black;
 }
 
 .footer-left {
-    background-color: #8fbcf0;
+  background-color: #8fbcf0;
 }
 
 .footer-right {
-    background-color: #6f91ec;
-    
+  background-color: #6f91ec;
 }
-.p2{
-    position: absolute;
-    text-align: right;
-    font-size: 14px;
-    margin: 0; 
-    right: 0;
+.p2 {
+  position: absolute;
+  text-align: right;
+  font-size: 14px;
+  margin: 0;
+  right: 0;
+  padding-right: 5px;
+}
+h2 {
+  flex-basis: 100%;
+  text-align: left;
+}
+img {
+  flex-basis: 50%;
+  height: auto;
+  max-width: 100%;
+  margin-right: 10px;
+}
+
+.img-txt {
+  display: flex;
+  flex-basis: 50%;
+  align-items: left;
+}
+.img-txt img {
+  width: 200px;
+  height: 200px;
+  margin-right: 10px;
 }
