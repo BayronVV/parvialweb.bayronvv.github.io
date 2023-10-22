@@ -36,6 +36,7 @@ body {
     font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column; /* Colocar elementos en columna */
+    min-height: 100vh;
 }
 
 /* Estilo para el elemento Main */
@@ -56,20 +57,21 @@ aside {
 .content {
     display: flex;
 }
-footer {
-    background-color: #1ba5f5; /* Color de fondo común para los footers */
-    text-align: center;
-    padding: 10px;
-    height: 1.5cm; /* Altura de 1.5cm */
+.footer-left, .footer-right {
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px; /* Ajusta el tamaño de fuente para que quepa en los footers */
+    
 }
 
-/* Estilo para el Footer Izquierdo */
 .footer-left {
-    align-self: flex-start; /* Colocar al inicio */
+    background-color: #8fbcf0;
 }
 
-/* Estilo para el Footer Derecho */
 .footer-right {
-    align-self: flex-end; /* Colocar al final */
+    background-color: #6f91ec;
 }
-
