@@ -73,4 +73,12 @@ aside {
 
 .footer-right {
     background-color: #6f91ec;
+    
+}
+.p2{
+    position: absolute;
+    text-align: right;
+    font-size: 14px;
+    margin: 0; 
+    right: 0;
 }
