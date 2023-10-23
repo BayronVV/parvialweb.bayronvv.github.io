@@ -147,19 +147,29 @@ img {
 .titulo a:hover {
   background-color: #b3d9ff;
 }
-.profile-info .ver-mas {
+.ver-mas {
+  background-color: #3282b8;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
   display: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 480px) {
   .profile-info .p3,
-  .h3 {
+  h3,
+  .p4,
+  h4 {
     display: none;
   }
   .profile-info .ver-mas {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
   }
 }
