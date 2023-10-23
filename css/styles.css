@@ -147,3 +147,19 @@ img {
 .titulo a:hover {
   background-color: #b3d9ff;
 }
+.profile-info .ver-mas {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .profile-info .p3,
+  .h3 {
+    display: none;
+  }
+  .profile-info .ver-mas {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}
